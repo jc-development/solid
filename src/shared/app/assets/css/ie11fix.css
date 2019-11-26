@@ -1,0 +1,89 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+     #main-menu ul, #mobile-main-menu ul {
+      display: flex;
+      justify-content: space-around;
+      height: 3rem;
+    }
+
+    #mobile-main-menu ul li:nth-of-type(1) {
+      order: 2;
+    }
+
+    #mobile-main-menu ul li:nth-of-type(2) {
+      order: 1;
+    }
+
+    #mobile-main-menu ul li:nth-of-type(3) {
+      order: 3;
+    }
+
+    .cart-content-wrapper .inner {
+      display: flex;
+    }
+
+    .cart-content-wrapper .cart-left {
+      width: 80%;
+    }
+
+    .cart-item {
+      display: flex;
+    }
+
+    .cart-item .cart-image {
+      height: 100% !important;
+      max-height: 6rem !important;
+      width: auto !important;
+      max-width: 6rem !important;
+    }
+
+    .cart-item > div {
+      width: 60%;
+    }
+
+    .cart-item .cart-item-data {
+      display: flex;
+      width: 30%;
+    }
+
+    .cart-item-data-quantity {
+      display: flex;
+    }
+
+    .cart-item-data-quantity .cart-item-quantity-increase, .cart-item-data-quantity .cart-item-quantity-decrease {
+      width: 40%;
+    }
+
+    .cart-item-data-quantity .cart-item-quantity {
+      width: 20%;
+    }
+
+    .bleeder-changer ul {
+      display: flex;
+      margin: 0 auto;
+    }
+
+    .bleeder-changer ul li {
+      width: 50%;
+    }
+}
+
+@media all and (max-width: 1100px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+}
+
+@media all and (max-width: 1023px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+}
+
+@media all and (max-width: 995px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+}
+
+@media all and (max-width: 950px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+}
+
+@media all and (max-width: 767px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+}

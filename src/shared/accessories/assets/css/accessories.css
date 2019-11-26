@@ -1,0 +1,59 @@
+.accessories {
+  margin-top: 4rem;
+}
+
+.accessories h1 {
+  font-weight: 900;
+  font-size: 250%;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 1rem;
+}
+
+.accessories article h1 {
+  font-size: 200%;
+}
+
+.accessories article img {
+  width: auto;
+  height: auto;
+  max-width: 30rem;
+  max-height: 30rem;
+}
+
+.accessories article p {
+  font-weight: bold;
+  padding: 1rem;
+  line-height: 140%;
+  font-size: 120%;
+}
+
+.accessories article ul {
+  list-style: disc;
+  text-align: left;
+  margin-left: 1rem;
+  padding: 1rem;
+  line-height: 140%;
+  width: fit-content;
+  margin: 0 auto;
+  display: table;
+}
+
+.accessories article ul li {
+  padding-bottom: 1rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .accessories article p {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .accessories article img {
+    max-width: 80%;
+  }
+}

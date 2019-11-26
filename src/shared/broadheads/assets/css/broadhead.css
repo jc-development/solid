@@ -1,0 +1,133 @@
+.broadhead-wrapper {
+  padding-top: 2rem;
+}
+
+.broadhead-features {
+  text-align: left;
+  margin: 1rem auto;
+  font-family: sans-serif;
+  width: 100%;
+}
+ .broadhead-features dt {
+  color: #fff;
+  background: #000;
+  font-size: 160%;
+  font-weight: 600;
+  padding: 1rem 0 1rem 2rem;
+  text-transform: uppercase;
+}
+ .broadhead-features dd {
+  font-size: 120%;
+  padding: 0.75rem 0;
+  line-height: 130%;
+  text-transform: uppercase;
+  width: 85%;
+  margin: 1rem auto;
+}
+
+.support-image {
+  width: 100%;
+}
+
+ .broadhead-page-header {
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
+  text-align: center;
+  padding: 0 0 2rem 0;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+ .broadhead-page-header h1 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 200%;
+  font-weight: 600;
+}
+
+.support-image {
+  width: 100%;
+}
+
+.support-text {
+  padding: 1rem;
+  font-size: 120%;
+  font-family: sans-serif;
+  line-height: 125%;
+  text-transform: uppercase;
+}
+
+.support-image-90 {
+  padding: 1rem;
+  width: 90%;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .broadhead-page-header h1 {
+    font-size: 240%;
+    line-height: 130%;
+  }
+
+  figure .support-image {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .broadhead-features dt {
+    font-size: 200%;
+  }
+
+  .broadhead-features dd {
+    text-transform: capitalize;
+    padding: 0.5rem 0;
+  }
+
+  .support-text {
+    margin: 1rem auto;
+    width: 85%;
+  }
+
+}
+
+.broadhead-description {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.broadhead-description header {
+  text-align: left;
+}
+
+.broadhead-description header h5 {
+  font-size: 125%;
+  font-weight: 600;
+}
+
+.broadhead-description dl {
+  position: absolute;
+  right: 1rem;
+  top: 5%;
+  width: 40% !important;
+  text-align: left;
+  margin: 1rem auto;
+}
+
+.broadhead-description dl dt {
+  text-transform: uppercase;
+  font-size: 125%;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.broadhead-description dl dt span {
+  font-size: 80%;
+}
+
+.broadhead-description dl dd {
+  padding: 1rem 0 1rem 1rem;
+  font-size: 140%;
+  font-weight: 600;
+}

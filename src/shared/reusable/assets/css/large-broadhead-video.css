@@ -1,0 +1,29 @@
+.large-broadhead-video-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.large-broadhead-video-container video {
+  position: absolute;
+  left: 0;
+  width: 65%;
+}
+
+@media screen and (max-width: 940px)  {
+
+  .large-broadhead-video-container {
+    position: static;
+    height: auto;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .large-broadhead-video-container video {
+    position: static;
+    /* left: 0; */
+    width: 100%;
+  }
+
+
+}

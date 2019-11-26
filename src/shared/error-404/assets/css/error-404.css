@@ -1,0 +1,14 @@
+#error-404 {
+  padding: 2rem !important;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#error-404 h1 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 290%;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}

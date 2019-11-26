@@ -1,0 +1,16 @@
+input[type="checkbox"] {
+  margin: 0.5rem;
+  transform: scale(2.0);
+}
+
+input[type="checkbox"][disabled] {
+  cursor: not-allowed;
+}
+dd span.out-of-stock {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: red;
+  padding: 0.7rem;
+  font-style: italic;
+  font-size: 0.9rem;
+}

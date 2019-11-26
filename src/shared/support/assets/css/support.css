@@ -1,0 +1,8 @@
+.desktop.menu-wrapper {
+  position: absolute;
+  top: 0;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+}

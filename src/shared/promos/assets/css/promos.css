@@ -1,0 +1,16 @@
+.promos article h1 {
+  font-size: 205%;
+}
+
+.promos article header h3 {
+  line-height: 200%;
+  font-size: 150%;
+  font-weight: 600;
+}
+
+.promos article p {
+  text-align: center;
+  width: 85%;
+  margin: 1rem auto;
+  line-height: 120%;
+}

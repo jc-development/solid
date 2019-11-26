@@ -1,0 +1,247 @@
+/*********** BLACK FRIDAY CSS - NOVEMBER 2018 ************/
+#black-friday-deals {
+  background: url(/assets/56d323d4378c8a95b4c063d0de97c97b.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: sans-serif;
+  padding-bottom: 1rem !important;
+}
+
+#black-friday-deals h1 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 290%;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#black-friday-deals a {
+  text-align: center;
+}
+
+#black-friday-deals article {
+  width: auto;
+  background: #fff;
+  color: #000;
+  text-shadow: none;
+}
+
+.time-start-end {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.bf-two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.bf-two-column > .deal-wrapper {
+  display: grid;
+  border: 2px solid #000;
+  padding: 1rem !important;
+  margin: 1rem !important;
+}
+
+.bf-two-column > .deal-wrapper > .image {
+  max-height: 20rem;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  align-self: center;
+}
+
+.bf-two-column > .deal-wrapper > .content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  text-align: left;
+}
+
+.bf-two-column > .deal-wrapper > .content > .btn {
+  align-self: end;
+  margin-left: auto;
+  font-size: 1.5rem;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  display: block;
+  font-size: 145%;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.bf-two-column > .deal-wrapper > .content > .btn:hover {
+  text-decoration: none;
+}
+
+.bf-two-column > .deal-wrapper > .content > .text {
+  align-self: end;
+}
+
+.bf-two-column > .deal-wrapper > .content > .text > h2 {
+  margin: 0;
+  font-size: 150%;
+  font-weight: 600;
+}
+
+.bf-two-column > .deal-wrapper > .content > .text > p {
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+
+.bf-one-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+}
+
+.bf-one-column > .deal-wrapper {
+  display: grid;
+  border: 2px solid #000;
+  padding: 1rem !important;
+  margin: 1rem !important;
+  grid-template-columns: auto auto;
+}
+
+.bf-one-column > .deal-wrapper > .image {
+  justify-self: center;
+  max-height: 22rem;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: auto;
+}
+
+
+.bf-one-column > .deal-wrapper > .content > .btn {
+  font-size: 1.5rem;
+  font-size: 1.5rem;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 145%;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.bf-one-column > .deal-wrapper > .content {
+  align-self: center;
+  text-align: left;
+}
+
+.bf-one-column > .deal-wrapper > .content h2 {
+  margin: 0;
+  font-size: 200%;
+  font-weight: 600;
+}
+
+.bf-one-column > .deal-wrapper > .content p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+
+@media screen and (max-width: 1199px) {
+  .bf-two-column > .deal-wrapper > .content {
+  	display: block;
+    align-self: end;
+  }
+  .bf-two-column > .deal-wrapper > .content > .text > p {
+  	margin: 0 0 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bf-two-column {
+  	grid-template-columns: 1fr;
+  }
+
+  .bf-two-column > .deal-wrapper > .content {
+	text-align: center;
+  }
+
+  .bf-one-column > .deal-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .bf-one-column > .deal-wrapper > .content {
+  	text-align: center;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bf-two-column {
+    display: flex;
+  }
+
+  .bf-two-column > .deal-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 50%;
+    overflow: hidden;
+  }
+
+  .bf-two-column > .deal-wrapper > .content {
+    display: flex;
+    flex: 0 1 100%;
+  }
+
+  .bf-one-column {
+    display: flex;
+  }
+
+  .bf-one-column > .deal-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 100%;
+  }
+
+  .bf-two-column > .deal-wrapper > .image {
+    flex-shrink: 0;
+  }
+
+  .bf-one-column > .deal-wrapper > .image {
+    flex-shrink: 0;
+  }
+
+  .bf-two-column > .deal-wrapper > .content > .text {
+    align-self: flex-end;
+  }
+
+  .bf-two-column > .deal-wrapper > .content > .btn {
+    align-self: flex-end;
+  }
+
+  .bf-one-column > .deal-wrapper > .content {
+  	flex: 0 1 60%;
+  }
+}
+
+@media all and (max-width: 768px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .bf-two-column {
+    flex-wrap: wrap;
+  }
+  .bf-two-column > .deal-wrapper {
+    flex: 0 1 100%;
+  }
+  .bf-two-column > .deal-wrapper > .content {
+    flex-wrap: wrap;
+  }
+  .bf-two-column > .deal-wrapper > .content > .btn {
+    margin: 0 auto;
+  }
+  .bf-one-column > .deal-wrapper > .content {
+  	flex: 0 1 100%;
+  }
+}

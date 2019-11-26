@@ -1,0 +1,94 @@
+.bleeder-changer {
+  display: grid;
+  grid-template-columns: 100%;
+  /* grid-template-rows: 50% 50%; */
+  justify-self: center;
+  align-self: center;
+}
+
+.bleeder-changer figure {
+  padding: 1rem;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  align-self: center;
+  justify-self: center;
+  width: 85%;
+  position: relative;
+}
+
+.bleeder-changer ul {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.bleeder-changer ul li div {
+  padding: 1rem;
+}
+
+.bleeder-changer ul li div img {
+  width: 100%;
+}
+
+.bleeder-changer ul li div p {
+  font-size: 100%;
+  font-weight: 200;
+  line-height: 120%;
+  padding-top: 1rem;
+}
+
+.cutting-diameter {
+  margin: 1rem auto;
+}
+
+.cutting-diameter figure {
+  display: block;
+}
+
+.cutting-diameter img {
+  border: 1px solid red;
+  border-radius: 100%;
+  padding: 3rem 0;
+}
+
+.cutting-diameter figure caption {
+  width: 21rem;
+  padding-top: 2rem;
+}
+
+.cutting-diameter figure caption dl dt {
+  font-size: 120%;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 130%;
+}
+
+.cutting-diameter figure caption dl dd {
+  font-size: 140%;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 130%;
+}
+
+
+.deep-six-wrapper {
+  position: absolute;
+  min-width: 7.2rem;
+  width: 25%;
+  left: 0;
+  top: 0;
+}
+
+.deep-six-wrapper p {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 87%;
+}
+
+.deep-six-wrapper img {
+  width: 100%;
+}

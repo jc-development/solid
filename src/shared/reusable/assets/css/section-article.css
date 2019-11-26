@@ -1,0 +1,138 @@
+article {
+  background: url('../images/black-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px dotted #fff;
+  height: auto;
+
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif !important;
+  text-shadow: 1px 1px 1px #000;
+
+  width: 100%;
+  margin: 1rem 0 !important;
+  padding: 0 0 2rem 0 !important
+}
+
+article h1 {
+  font-size: 250%;
+  font-weight: 900;
+  width: calc(100% - 2rem); /* 95%; */
+  margin: 1rem auto;
+  padding: 1rem;
+
+}
+
+article header {
+  width: 85%;
+  margin: 1rem auto;
+  padding: 1rem;
+
+  /* smaller width
+  width: calc(100vw*0.85);
+  margin: 1rem auto;
+   */
+}
+
+article header h2 {
+  /* font-size: 250%; /* smaller width 190% */
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  padding: 1rem;
+  margin: 1rem auto;
+  line-height: 120%;
+  font-size: 140%;
+  margin: 1rem auto;
+  font-weight: 900;
+  text-align: left;
+  /* width: 100%; */
+}
+
+article header p {
+  line-height: 145%;
+  padding: 0 1rem;
+  width: calc(100% - 2rem);
+  text-align: left;
+}
+
+article button {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+  display: block;
+  margin: 1rem auto;
+  font-size: 145%;
+  font-weight: 600;
+}
+
+.section-article-img {
+  width: 100%;
+}
+
+.intro-p {
+  line-height: 150%;
+  width: 80%;
+  margin: 1rem auto;
+  font-weight: 900;
+  font-size: 125%;
+}
+
+.learn-more-link {
+  display: block;
+  color: #fff;
+  font-weight: 900;
+  text-decoration: none;
+  border-top: 2px dotted #fff;
+  padding: 2rem 0;
+  margin: 1rem auto;
+  width: 85%;
+}
+
+@media screen and (min-width: 1024px) {
+
+  article h1 {
+    font-size: 290%;
+  }
+
+  article header h2 {
+    letter-spacing: 1;
+    line-height: 150%;
+    font-size: 170%;
+    text-align: center;
+  }
+
+  article header p {
+    font-size: 130%;
+    text-align: center;
+  }
+
+  .combo-display img:nth-of-type(1) {
+    height: 17rem !important;
+  }
+
+  .combo-display img:nth-of-type(2) {
+    width: 5rem;
+  }
+
+  .combo-display img:nth-of-type(3) {
+    height: 17rem;
+  }
+
+  .intro-p {
+    font-size: 155%;
+  }
+
+  article h7 {
+    line-height: 150%;
+    font-size: 130%;
+  }
+
+  .learn-more-link {
+    font-size: 130%;
+  }
+
+
+}
